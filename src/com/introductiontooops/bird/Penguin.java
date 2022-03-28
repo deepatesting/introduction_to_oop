@@ -16,13 +16,4 @@ public class Penguin extends Bird {
         System.out.println("Whoops, I can't fly. Waddle waddle.");
     }
 
-    public static void main(String args[]) {
-        Penguin penguin = new Penguin("Penguin", "Black & White");
-        penguin.speak();
-        penguin.fly();
-
-        penguin.spin();
-        penguin.doTheCaterpillar();
-        penguin.jump();
-    }
 }

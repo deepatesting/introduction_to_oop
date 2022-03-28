@@ -14,10 +14,5 @@ public class Parrot extends Bird {
         System.out.println("I can speak funny!!");
     }
 
-    public static void main(String args[]){
-        Parrot parrot = new Parrot("Parrot", "Green");
-        parrot.speak();
-        parrot.fly();
-    }
 }
 

@@ -21,15 +21,4 @@ public class Pigeon extends Bird {
         System.out.println("I'm a sleeping pigeon!");
     }
 
-    public static void main(String args[]){
-        Pigeon pippa = new Pigeon("Pippa", "Grey");
-        pippa.speak();
-        pippa.fly();
-        pippa.eatPizza();
-        pippa.sleep();
-
-        pippa.spin();
-        pippa.doTheCaterpillar();
-        pippa.jump();
-    }
 }
